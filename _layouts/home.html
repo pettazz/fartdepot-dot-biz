@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+    <link href="{{ site.url }}/assets/css/home.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      <section class="logo-dumpster">
+        <div class="container text-center">
+          <img src="/assets/img/logobig.png" alt="fart depot dot biz logo" />
+        </div>
+      </section>
+
+      <nav class="main-menu">
+        <div class="nav-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <!-- <h1>i drew it</h1> -->
+              </div>
+              <div class="col">
+                <!-- <h1>i wrote it</h1> -->
+              </div>
+              <div class="col">
+                <!-- <h1>i am it</h1> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="text-center">
+        <br />
+        <h1>fartin' soon!</h1>
+      </section>
+
+      <!-- <section class="page-wrapper posts-list clearfix">
+      
+        <h1>
+          {% if paginator.page > 1 %}
+          <small class="text-muted">Page {{ paginator.page }}</small>
+          {% endif %}
+        </h1>
+
+        <div class="previews-container">
+          {% for post in paginator.posts %}
+            {% capture evenOdd %}
+                {% cycle 'odd', 'even' %}
+            {% endcapture %}
+            {{ post.title }}
+          {% endfor %}
+        </div>
+
+      </section> -->
+
+      <footer>
+        <!-- {% include footer.html %} -->
+      </footer>
+      
+    </main>
+  </body>
+
+</html>

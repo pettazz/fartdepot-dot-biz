@@ -4,12 +4,34 @@ description: >-
   Choo choo here it comes 
   the fart into the
   depot.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+locale: en_US
+baseurl: ""
+url: ""
+
+permalink: /:categories/:year/:month/:day/
+
+lsi: true
+
+markdown: kramdown
+safe: false
+
+pagination:
+  enabled: true
+  title: ':title - page :num'
+  per_page: 10
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
 
 plugins:
   - jekyll-feed
 
+sass:
+  sass_dir: _sass
+  style: compressed
+  
 exclude:
   - .sass-cache/
   - .jekyll-cache/

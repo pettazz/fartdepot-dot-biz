@@ -1,6 +1,5 @@
 ---
 published: false
-layout: post
 title:  "Welcome to Jekyll!"
 date:   2023-01-10 22:40:00 -0500
 categories: jekyll update

@@ -1,0 +1,26 @@
+---
+sitemap: false
+---
+
+section.logo-dumpster{
+  padding: 30px;
+  background: #EAE2B7;
+}
+
+nav.main-menu{
+  margin-top:-5px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-image: url('/assets/img/inky_border.png') 11 repeat;
+  color: white;
+
+  div.nav-inner{
+    width: 100%;
+    height: 100%;
+    background: #000;
+  }
+
+  div.col{
+    text-align: center;
+  }
+}

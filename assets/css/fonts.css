@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'P22 Mackinac Pro';
+    src: url('../woff/P22MackinacPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('../woff/P22MackinacPro-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'P22 Mackinac Pro';
+    src: url('../woff/P22MackinacPro-Medium.woff2') format('woff2'),
+        url('../woff/P22MackinacPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'P22 Mackinac Pro';
+    src: url('../woff/P22MackinacPro-BoldItalic.woff2') format('woff2'),
+        url('../woff/P22MackinacPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'P22 Mackinac Pro';
+    src: url('../woff/P22MackinacPro-MediumItalic.woff2') format('woff2'),
+        url('../woff/P22MackinacPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'P22 Mackinac Pro';
+    src: url('../woff/P22MackinacPro-ExtraBold.woff2') format('woff2'),
+        url('../woff/P22MackinacPro-ExtraBold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'P22 Mackinac Pro';
+    src: url('../woff/P22MackinacPro-Bold.woff2') format('woff2'),
+        url('../woff/P22MackinacPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
