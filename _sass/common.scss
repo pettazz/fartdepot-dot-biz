@@ -1,0 +1,18 @@
+@import "global-variables";
+
+section.page-wrapper{
+  min-height: 400px;
+}
+
+footer{
+  margin-top: -5px;
+  border-top: 5px solid black;
+  border-image: url('/assets/img/inky_border_black.png') 11 repeat;
+  color: white;
+
+  .footer-wrap{
+    background: #000;
+    height: 100%;
+    width: 100%;
+  }
+}

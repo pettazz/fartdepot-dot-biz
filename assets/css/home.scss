@@ -2,16 +2,37 @@
 sitemap: false
 ---
 
+@import "common";
+
 section.logo-dumpster{
   padding: 30px;
-  background: #EAE2B7;
+  width: 100%;
+  background: $beige;
+
+  img{
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 408px;
+  }
+
+  @media (max-width: $bs-break-md){
+    padding: 10px 0px;
+  }
+
+  @media (max-width: $bs-break-sm){
+    img{
+      width: 300px;
+      height: 204px;
+    }
+  }
 }
 
 nav.main-menu{
   margin-top:-5px;
   border-top: 5px solid black;
   border-bottom: 5px solid black;
-  border-image: url('/assets/img/inky_border.png') 11 repeat;
+  border-image: url('/assets/img/inky_border_black.png') 11 repeat;
   color: white;
 
   div.nav-inner{
@@ -22,5 +43,64 @@ nav.main-menu{
 
   div.col{
     text-align: center;
+    height: 40px;
+    margin: 10px 0px;
+
+    a{
+      display: block;
+      height: 40px;
+      width: 270px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin: 0 auto;
+    }
+
+    a.drewit{
+      background: url('/assets/img/nav/idrewit.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+        background: url('/assets/img/nav/idrewit@2x.png') no-repeat;
+        background-size: 100%;
+      }
+    }
+
+    a.drewit:hover{
+      background: url('/assets/img/nav/idrewit_hover.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+        background: url('/assets/img/nav/idrewit_hover@2x.png') no-repeat;
+        background-size: 100%;
+      }
+    }
+
+    a.wroteit{
+      background: url('/assets/img/nav/iwroteit.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+        background: url('/assets/img/nav/iwroteit@2x.png') no-repeat;
+        background-size: 100%;
+      }
+    }
+
+    a.wroteit:hover{
+      background: url('/assets/img/nav/iwroteit_hover.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+        background: url('/assets/img/nav/iwroteit_hover@2x.png') no-repeat;
+        background-size: 100%;
+      }
+    }
+
+    a.amit{
+      background: url('/assets/img/nav/iamit.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+        background: url('/assets/img/nav/iamit@2x.png') no-repeat;
+        background-size: 100%;
+      }
+    }
+
+    a.amit:hover{
+      background: url('/assets/img/nav/iamit_hover.png');
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+        background: url('/assets/img/nav/iamit_hover@2x.png') no-repeat;
+        background-size: 100%;
+      }
+    }
   }
 }

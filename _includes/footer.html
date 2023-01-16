@@ -1,36 +1,38 @@
-      <div class="container">
-        <div class="row">
-          <div class="col-3 links">
-            <h6>Sections</h6>
-            <a href="{{ site.url }}/drew">i drew it</a>
-            <a href="{{ site.url }}/wrote">i wrote it</a>
-            <a href="{{ site.url }}/about">i am it</a>
-            <a href="{{ site.url }}/license">you can it too</a>
+      <div class="footer-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-3 links">
+              <h6>Sections</h6>
+              <a href="{{ site.url }}/drew">i drew it</a>
+              <a href="{{ site.url }}/wrote">i wrote it</a>
+              <a href="{{ site.url }}/about">i am it</a>
+              <a href="{{ site.url }}/license">you can it too</a>
+            </div>
+            <div class="col-6 logos align-self-center">
+              <a href="https://fartdepot.biz/license">
+                <i class="fab fa-creative-commons"></i>
+                <i class="fab fa-creative-commons-by"></i>
+                <i class="fab fa-creative-commons-nc"></i>
+              </a>
+            </div>
           </div>
-          <div class="col-6 logos align-self-center">
-            <a href="https://fartdepot.biz/license">
-              <i class="fab fa-creative-commons"></i>
-              <i class="fab fa-creative-commons-by"></i>
-              <i class="fab fa-creative-commons-nc"></i>
-            </a>
-          </div>
-        </div>
-        <div class="row lower">
-          <div class="col-6 follow-links">
-            <a href="{{ site.url }}/feed.xml"><i class="fas fa-rss-square"></i></a>
-          </div>
-          <div class="col-6 align-self-center" id="license-text">
+          <div class="row lower">
+            <div class="col-6 follow-links">
+              <a href="{{ site.url }}/feed.xml"><i class="fas fa-rss-square"></i></a>
+            </div>
+            <div class="col-6 align-self-center" id="license-text">
 
-            {% case page.category %}
-              {% when "drew" %}
-                {% assign mediaType = 'rel="dct:type" href="http://purl.org/dc/dcmitype/StillImage"' %}
-              {% when "wrote" %}
-                {% assign mediaType = 'rel="dct:type" href="http://purl.org/dc/dcmitype/Text"' %}
-              {% else %}
-                {% assign mediaType = "" %}
-            {% endcase %}
-              
-            <small><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title" {{ mediaType }}>{{ page.title | default:site.title }}</span>{% if page.showAuthor %} by <a xmlns:cc="http://creativecommons.org/ns#" href="https://fartdepot.biz" property="cc:attributionName" rel="cc:attributionURL">{{ page.author.name }}</a>{% endif %} is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://fartdepot.biz/license" rel="cc:morePermissions">https://fartdepot.biz/license</a>.</small>
+              {% case page.category %}
+                {% when "drew" %}
+                  {% assign mediaType = 'rel="dct:type" href="http://purl.org/dc/dcmitype/StillImage"' %}
+                {% when "wrote" %}
+                  {% assign mediaType = 'rel="dct:type" href="http://purl.org/dc/dcmitype/Text"' %}
+                {% else %}
+                  {% assign mediaType = "" %}
+              {% endcase %}
+                
+              <small><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title" {{ mediaType }}>{{ page.title | default:site.title }}</span>{% if page.showAuthor %} by <a xmlns:cc="http://creativecommons.org/ns#" href="https://fartdepot.biz" property="cc:attributionName" rel="cc:attributionURL">{{ page.author.name }}</a>{% endif %} is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://fartdepot.biz/license" rel="cc:morePermissions">https://fartdepot.biz/license</a>.</small>
+            </div>
           </div>
         </div>
       </div>
