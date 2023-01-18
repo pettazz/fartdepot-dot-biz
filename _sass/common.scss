@@ -1,16 +1,25 @@
 @import "global-variables";
 
 section.page-wrapper{
+  padding: 25px 0;
+  margin: 0px auto;
   min-height: 400px;
+  background: $beige;
+  z-index: 1;
+  position: relative;
 }
 
 footer{
-  margin-top: -5px;
+  z-index: 999;
+  position: relative;
+  margin-top: -15px; // this is gonna bite me in the ass later, caused by home nav
   border-top: 5px solid black;
   border-image: url('/assets/img/inky_border_black.png') 11 repeat;
   color: white;
 
   .footer-wrap{
+    margin: 0px auto;
+    padding: 10px 0px;
     background: #000;
     height: 100%;
     width: 100%;
