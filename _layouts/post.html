@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+    {% assign category = page.categories[0] %}
+    {% if category == "drew" %}
+      <link href="{{ site.url }}/assets/css/drew.css" rel="stylesheet">
+    {% else %}
+      <link href="{{ site.url }}/assets/css/wrote.css" rel="stylesheet">
+    {% endif %}
+  </head>
+
+  <body>
+    <main>
+      {% include normalnav.html %}
+
+      <section class="page-wrapper">
+        <div class="post-header">
+          <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+        </div>
+
+        {% if category == "wrote" %}
+          {% include wrotebody.html %}
+        {% endif %}
+        {% if category == "drew" %}
+          {% include drewbody.html %}
+        {% endif %}
+
+        {% if category == "drew" %}
+          {% include drewnav.html %}
+        {% endif %}
+
+        <div class="post-alsos">
+          <h3>i also {{ category }}</h3>
+          <div class="container also-wrap">
+            <div class="row g-0 row-cols-2">
+              {% for post in site.related_posts limit:4 %}
+              {% capture leftRight %}
+                  {% cycle 'left', 'right' %}
+              {% endcapture %}
+              <div class="col {{ leftRight }}">
+                <div class="also-item random-bg-replace">
+                  <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+                  <h6>{{ post.date | date: "%B %d, %Y" }}</h6>
+                  <p class="title-font">{{ post.excerpt }}</p>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        {% include footer.html %}
+      </footer>
+      
+    </main>
+  </body>
+
+</html>

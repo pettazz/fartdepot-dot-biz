@@ -1,0 +1,114 @@
+nav.button{
+  z-index: 99;
+  position: fixed;
+  width: 200px;
+  height: 152px;
+  top: 10px;
+  left: 10px;
+
+  a{
+    cursor: pointer;
+  }
+}
+
+nav.main-menu{
+
+  display: none;
+
+  height: 170px;
+  z-index: 9;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 20px;
+  border-top: 10px solid $beige;
+  border-bottom: 10px solid $beige;
+  border-image: url('/assets/img/inky_border_beige_thic.png') 52 repeat;
+
+  div.nav-inner{
+    background: $beige;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .close-button-holster{
+    font-size: 35px;
+    padding-top: 45px;
+
+    a{
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+
+      &:hover{
+        color: #666;
+      }
+    }
+  }
+
+  .logo-holster{
+    text-align: right;
+    padding-left: none;
+    width: 184px;
+
+    a{
+      display: inline-block;
+      width: 184px;
+      height: 125px;
+      background: -webkit-image-set(
+        url('/assets/img/logo.png') 1x,
+        url('/assets/img/logo@2x.png') 2x);
+    }
+  }
+
+  .menu-holster{
+    text-align: left;
+
+    a{
+      padding: none;
+      display: block;
+      height: 40px;
+      width: 270px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      margin: 5px auto 0px 0px;
+    }
+
+    a.drewit{
+      background-image: -webkit-image-set(
+        url('/assets/img/nav/idrewit.png') 1x,
+        url('/assets/img/nav/idrewit@2x.png') 2x);
+    }
+
+    a.drewit:hover{
+      background-image: -webkit-image-set(
+        url('/assets/img/nav/idrewit_hover.png') 1x,
+        url('/assets/img/nav/idrewit_hover@2x.png') 2x);
+    }
+
+    a.wroteit{
+      background-image: -webkit-image-set(
+        url('/assets/img/nav/iwroteit.png') 1x,
+        url('/assets/img/nav/iwroteit@2x.png') 2x);
+    }
+
+    a.wroteit:hover{
+      background-image: -webkit-image-set(
+        url('/assets/img/nav/iwroteit_hover.png') 1x,
+        url('/assets/img/nav/iwroteit_hover@2x.png') 2x);
+    }
+
+    a.amit{
+      background-image: -webkit-image-set(
+        url('/assets/img/nav/iamit.png') 1x,
+        url('/assets/img/nav/iamit@2x.png') 2x);
+    }
+
+    a.amit:hover{
+      background-image: -webkit-image-set(
+        url('/assets/img/nav/iamit_hover.png') 1x,
+        url('/assets/img/nav/iamit_hover@2x.png') 2x);
+    }
+  }
+}

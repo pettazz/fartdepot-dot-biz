@@ -3,61 +3,28 @@
   <head>
     {% include head.html %}
     <link href="{{ site.url }}/assets/css/home.css" rel="stylesheet">
-
-    <link rel="preload" as="image" href="/assets/img/nav/idrewit_hover.png">
-    <link rel="preload" as="image" href="/assets/img/nav/iwroteit_hover.png">
-    <link rel="preload" as="image" href="/assets/img/nav/iamit_hover.png">
-    <link rel="preload" as="image" href="/assets/img/nav/idrewit_hover@2x.png">
-    <link rel="preload" as="image" href="/assets/img/nav/iwroteit_hover@2x.png">
-    <link rel="preload" as="image" href="/assets/img/nav/iamit_hover@2x.png">
   </head>
 
   <body>
     <main>
-      <section class="logo-dumpster">
-        <img src="/assets/img/logobig.png" alt="fart depot dot biz logo" />
-      </section>
-
-      <nav class="main-menu">
-        <div class="nav-inner">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <a href="/drew" class="drewit" alt="i drew it: stuff that i drew"></a>
-              </div>
-              <div class="col">
-                <a href="/wrote" class="wroteit" alt="i wrote it: stuff that i wrote"></a>
-              </div>
-              <div class="col">
-                <a href="/about" class="amit" alt="i am it: about me and this site"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
+      {% include bignav.html %}
 
       <section class="text-center page-wrapper">
         <h1>fartin' soon!</h1>
-      </section>
-
-      <!-- <section class="page-wrapper posts-list clearfix">
-      
-        <h1>
-          {% if paginator.page > 1 %}
-          <small class="text-muted">Page {{ paginator.page }}</small>
-          {% endif %}
-        </h1>
 
         <div class="previews-container">
-          {% for post in paginator.posts %}
-            {% capture evenOdd %}
-                {% cycle 'odd', 'even' %}
-            {% endcapture %}
-            {{ post.title }}
+          {% for category in site.categories %}
+            <h2><a name="{{ category | first }}">{{ category | first }}</a></h2>
+              <ul>
+              {% for post in category.last %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+              </ul>
+            </li>
           {% endfor %}
         </div>
 
-      </section> -->
+      </section>
 
       <footer>
         {% include footer.html %}

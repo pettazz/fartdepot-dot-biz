@@ -1,0 +1,20 @@
+@import "common";
+@import "normalnav";
+
+.post-header{
+  margin: 100px auto 30px auto;
+  max-width: 800px;
+  text-align: center;
+  
+  h1{
+    font-size: 3.5rem;
+    line-height: 1.1;
+    font-weight: 600;
+
+    a{
+      text-decoration: none;
+      color: #000;
+      text-shadow: 0 3px 7px #e4e4e4;
+    }
+  }
+}

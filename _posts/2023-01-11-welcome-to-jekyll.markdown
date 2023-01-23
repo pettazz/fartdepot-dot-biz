@@ -1,9 +1,8 @@
 ---
 published: true
 layout: post
-title:  "Welcome to Jekyll; This is A Longer Title Now So We Can See What Happens"
-excerpt: "It's a description or whatever. Can be long or short really, no specification here."
-date:   2023-01-10 22:40:00 -0500
+title:  "Copy of page 2"
+date:   2023-01-11 22:40:00 -0500
 categories: wrote
 tags: [hello]
 ---
