@@ -6,7 +6,7 @@ description: >-
   depot.
 locale: en_US
 baseurl: ""
-url: ""
+url: "https://fartdepot.biz"
 
 permalink: /:categories/:year/:month/:day/
 
