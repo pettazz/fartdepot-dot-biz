@@ -69,8 +69,14 @@
               {% for post in site.related_posts limit:4 %}
                 {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
                 <div class="col {{ leftRight }}">
-                  {% capture bgClass %}{% if post.image.background %}bg-replace{% else %}random-bg-replace{% endif %}{% endcapture %}
-                  {% capture bgPath %}{% if post.image.background %}/assets/img/post-content/{{ post.image.background }}{% endif %}{% endcapture %}
+                  {% capture bgClass %}{% if post.image %}bg-replace{% else %}random-bg-replace{% endif %}{% endcapture %}
+
+                  {% if post.image.background %}
+                    {% capture bgPath %}/assets/img/post-content/{{ post.image.background }}{% endcapture %}
+                  {% elsif post.image.headliner %}
+                      {% capture bgPath %}/assets/img/post-content/{{ post.image.headliner }}{% endcapture %}
+                  {% endif %}
+                  
                   <div class="also-item {{ bgClass }}" data-bg="{{ bgPath }}">
                     <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
                     <h6>{{ post.date | date: "%B %d, %Y" }}</h6>
