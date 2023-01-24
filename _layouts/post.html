@@ -2,6 +2,20 @@
 <html>
   <head>
     {% include head.html %}
+
+    {% if page.image.background %}
+      {% capture background %}{% if page.image.background %}/assets/img/post-content/{{ page.image.background }}{% endif %}{% endcapture %}
+      <style type="text/css">
+          body {
+            background: url({{ background }}) no-repeat center center fixed !important;
+            background-size: cover;
+          }
+      </style>
+    {% endif %}
+    {% if page.image.headliner %}
+      {% capture headliner %}{% if page.image.headliner %}/assets/img/post-content/{{ page.image.headliner }}{% endif %}{% endcapture %}
+    {% endif %}
+
     {% assign category = page.categories[0] %}
     {% if category == "drew" %}
       <link href="{{ site.url }}/assets/css/drew.css" rel="stylesheet">
@@ -10,41 +24,59 @@
     {% endif %}
   </head>
 
-  <body>
+  <body class="{% if page.image.background %} bg {% endif %}">
     <main>
       {% include normalnav.html %}
 
+      <header class="post-header {% if page.image.headliner %} headliner {% endif %}">
+        {% if page.image.headliner %}
+          <div class="headliner-wrap">
+            <img src="{{ headliner }}" />
+          </div>
+        {% endif %}
+        <div class="title-wrap">
+          <h1 class="title-text"><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+        </div>
+      </header>
+
       <section class="page-wrapper">
-        <div class="post-header">
-          <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
+        <div class="post-body">
+          {% if category == "drew" %}
+            {% include comicnav.html %}
+          {% endif %}
+          {{ content }}
+          {% if category == "wrote" %}
+
+            <div class="post-separator">
+              <h1>&#8226;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;&nbsp;&#8226;</h1>
+            </div>
+
+            <div class="post-footer">
+              <h2><small>i {{ category }} it on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></small></h2>
+            </div>
+          
+          {% endif %}
+          {% if category == "drew" %}
+            {% include comicnav.html %}
+          {% endif %}
+
         </div>
 
-        {% if category == "wrote" %}
-          {% include wrotebody.html %}
-        {% endif %}
-        {% if category == "drew" %}
-          {% include drewbody.html %}
-        {% endif %}
-
-        {% if category == "drew" %}
-          {% include drewnav.html %}
-        {% endif %}
-
         <div class="post-alsos">
-          <h3>i also {{ category }}</h3>
+          <h3 class="title-text">i also {{ category }}</h3>
           <div class="container also-wrap">
-            <div class="row g-0 row-cols-2">
+            <div class="row g-2 row-cols-2">
               {% for post in site.related_posts limit:4 %}
-              {% capture leftRight %}
-                  {% cycle 'left', 'right' %}
-              {% endcapture %}
-              <div class="col {{ leftRight }}">
-                <div class="also-item random-bg-replace">
-                  <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
-                  <h6>{{ post.date | date: "%B %d, %Y" }}</h6>
-                  <p class="title-font">{{ post.excerpt }}</p>
+                {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
+                <div class="col {{ leftRight }}">
+                  {% capture bgClass %}{% if post.image.background %}bg-replace{% else %}random-bg-replace{% endif %}{% endcapture %}
+                  {% capture bgPath %}{% if post.image.background %}/assets/img/post-content/{{ post.image.background }}{% endif %}{% endcapture %}
+                  <div class="also-item {{ bgClass }}" data-bg="{{ bgPath }}">
+                    <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
+                    <h6>{{ post.date | date: "%B %d, %Y" }}</h6>
+                    <p class="title-font">{{ post.excerpt }}</p>
+                  </div>
                 </div>
-              </div>
               {% endfor %}
             </div>
           </div>

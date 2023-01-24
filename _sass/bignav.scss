@@ -1,13 +1,18 @@
 section.logo-dumpster{
   padding: 30px;
   width: 100%;
-  background: #fff;
+  background: #e4e4e4;
+  background-size: cover;
 
   img{
     display: block;
     margin: 0 auto;
     width: 600px;
     height: 408px;
+    filter: drop-shadow(2px 1px 0px darken($beige, 15)) 
+            drop-shadow(3px 2px 0px darken($beige, 10)) 
+            drop-shadow(4px 3px 0px darken($beige, 5))
+            drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
   }
 
   @media (max-width: $bs-break-md){

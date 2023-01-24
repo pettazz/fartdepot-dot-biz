@@ -5,10 +5,12 @@ sitemap: false
 @import "post";
 @import "random-bgs";
 
-section.page-wrapper{
+body{
   background: #e4e4e4;
+}
 
-  .wrote-body{
+section.page-wrapper{
+  .post-body{
     font-size: 18px;
     font-family: 'Brygada 1918', serif;
     line-height: 1.5;
@@ -17,7 +19,7 @@ section.page-wrapper{
     background: #fff;
     padding: 50px 80px;
     border-radius: 3px;
-    box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
   }
 
   .post-separator{
@@ -43,37 +45,21 @@ section.page-wrapper{
     margin: 0 auto 40px auto;
     
     .also-wrap{
-      background: #fff;
-      padding: 0;
-      border-radius: 3px;
-      box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1);
-
-      .col{
-        &.left{
-          .also-item{
-            border-radius: 3px 0 0 3px;
-          }
-        }
-        &.right{
-
-          .also-item{
-            border-radius: 0 3px 3px 0;
-          }
-        }
-      }
 
       .also-item{
         position: relative;
-        z-index: 1;
         color: #e4e4e4;
         text-shadow: 0 1px 1px #000;
         width: 100%;
-        height: 100%;
+        height: 99%;
         padding: 40px 40px 10px 40px;
         transition-duration: 0.15s;
+        border: 3px solid black;
+        background-clip: padding-box;
+        border-image: url('/assets/img/inky_border_black_full.png') 88 / 7px / 1px round;
+        filter: drop-shadow(0px 6px 12px rgba(0,0,0,0.1));
 
         &:hover{
-          z-index: 2;
           transform: scale(1.02);
         }
 
