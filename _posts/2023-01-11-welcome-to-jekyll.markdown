@@ -1,10 +1,12 @@
 ---
 published: true
 layout: post
-title:  "Copy of page 2"
+title:  "Another long title but I guess it's unrealistically long anyway so just don't do this."
 date:   2023-01-11 22:40:00 -0500
 categories: wrote
 tags: [hello]
+image:
+  headliner: head.jpg
 ---
 "For a first effort, this feels kind of last ditch."
 

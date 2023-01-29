@@ -3,3 +3,19 @@ sitemap: false
 ---
 
 @import "post";
+
+section.page-wrapper{
+  .post-body{
+    padding: 0px;
+    overflow:hidden;
+  }
+
+  .content-wrapper{
+    margin: 0 auto 40px auto;
+    padding: 50px 80px;
+  }
+}
+
+img.feature{
+  max-width: 100%;
+}

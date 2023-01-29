@@ -5,6 +5,8 @@ title:  "Copy of page 3"
 date:   2023-01-12 22:40:00 -0500
 categories: wrote
 tags: [hello]
+image:
+  background: bg.jpg
 ---
 "For a first effort, this feels kind of last ditch."
 

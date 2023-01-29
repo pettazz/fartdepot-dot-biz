@@ -27,7 +27,7 @@ $(document).ready(() => {
     $(this).removeClass('bg-replace')
            .removeClass('add-scrim')
            .css({
-              "background": "linear-gradient(45deg, rgba(0,0,35,0.25), rgba(0,0,35,0.25)), url('" + $(this).data('bg') + "')",
+              "background": "linear-gradient(45deg, rgba(0,0,35,0.75), rgba(0,0,45,0.75)), url('" + $(this).data('bg') + "')",
               "background-size": "cover",
               "background-clip": "padding-box",
               "background-repeat": "no-repeat",

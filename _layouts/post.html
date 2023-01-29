@@ -42,9 +42,14 @@
       <section class="page-wrapper">
         <div class="post-body">
           {% if category == "drew" %}
-            {% include comicnav.html %}
+            <img class="feature" src="{{ site.url }}/assets/img/post-content/{{ page.image.feature }}" title="{{ page.image.imageHover }}" alt="{{ page.image.imageAlt }}" />
           {% endif %}
-          {{ content }}
+          {% capture trimmedContent %}{{ content | strip }}{% endcapture %}
+          {% if trimmedContent != '' %}
+            <div class="content-wrapper">
+              {{ content }}
+            </div>
+          {% endif %}
           {% if category == "wrote" %}
 
             <div class="post-separator">
@@ -56,10 +61,6 @@
             </div>
           
           {% endif %}
-          {% if category == "drew" %}
-            {% include comicnav.html %}
-          {% endif %}
-
         </div>
 
         <div class="post-alsos">
@@ -75,6 +76,8 @@
                     {% capture bgPath %}/assets/img/post-content/{{ post.image.background }}{% endcapture %}
                   {% elsif post.image.headliner %}
                       {% capture bgPath %}/assets/img/post-content/{{ post.image.headliner }}{% endcapture %}
+                  {% elsif post.image.feature %}
+                      {% capture bgPath %}/assets/img/post-content/{{ post.image.feature }}{% endcapture %}
                   {% endif %}
                   
                   <div class="add-scrim also-item {{ bgClass }}" data-bg="{{ bgPath }}">
