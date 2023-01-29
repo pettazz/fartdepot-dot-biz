@@ -25,11 +25,13 @@ $(document).ready(() => {
 
   $('.bg-replace').each(function(idx){
     $(this).removeClass('bg-replace')
+           .removeClass('add-scrim')
            .css({
-              "background": "url('" + $(this).data('bg') + "') no-repeat",
-              "backgroundSize": "cover",
+              "background": "linear-gradient(45deg, rgba(0,0,35,0.25), rgba(0,0,35,0.25)), url('" + $(this).data('bg') + "')",
+              "background-size": "cover",
               "background-clip": "padding-box",
-              "backgroundPosition": "center"
+              "background-repeat": "no-repeat",
+              "background-position": "center"
             });
   });
 

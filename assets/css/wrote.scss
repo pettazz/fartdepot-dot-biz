@@ -62,10 +62,10 @@ section.page-wrapper{
         &:hover{
           transform: scale(1.02);
         }
-
-        h5{
-          a{
-            text-decoration: none;
+        
+        a{
+          text-decoration: none;
+          h5{
             color: #e4e4e4;
           }
         }

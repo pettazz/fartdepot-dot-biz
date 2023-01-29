@@ -30,7 +30,7 @@
 
       <header class="post-header {% if page.image.headliner %} headliner {% endif %}">
         {% if page.image.headliner %}
-          <div class="add-scrim add-scrim-after headliner-wrap">
+          <div class="add-scrim headliner-wrap">
             <img src="{{ headliner }}" />
           </div>
         {% endif %}
@@ -77,12 +77,10 @@
                       {% capture bgPath %}/assets/img/post-content/{{ post.image.headliner }}{% endcapture %}
                   {% endif %}
                   
-                  <div class="add-scrim add-scrim-before also-item {{ bgClass }}" data-bg="{{ bgPath }}">
-                    <div>
-                      <h5><a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h5>
-                      <h6>{{ post.date | date: "%B %d, %Y" }}</h6>
-                      <p class="title-font">{{ post.excerpt }}</p>
-                    </div>
+                  <div class="add-scrim also-item {{ bgClass }}" data-bg="{{ bgPath }}">
+                    <a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><h5>{{ post.title }}</h5></a>
+                    <h6>{{ post.date | date: "%B %d, %Y" }}</h6>
+                    <p class="title-font">{{ post.excerpt }}</p>
                   </div>
                 </div>
               {% endfor %}
