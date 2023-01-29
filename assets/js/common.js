@@ -37,6 +37,7 @@ $(document).ready(() => {
     // we have 12 bgs to choose from in _sass/random-bgs.scss
     let rand = Math.floor(Math.random() * 12) + 1;
     $(this).removeClass('random-bg-replace')
+           .removeClass('add-scrim')
            .addClass('random-bg-' + rand.toString());
   });
   
