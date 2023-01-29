@@ -57,11 +57,17 @@
             </div>
 
             <div class="post-footer">
-              <h2><small>i {{ category }} it on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></small></h2>
+              <h2 class="post-date">i {{ category }} it on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></h2>
             </div>
           
           {% endif %}
         </div>
+
+        {% if category == "drew" %}
+          <div class="post-footer">
+            <h2 class="post-date">i {{ category }} it on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></h2>
+          </div>
+        {% endif %}
 
         <div class="post-alsos">
           <h3 class="title-text">i also {{ category }}</h3>

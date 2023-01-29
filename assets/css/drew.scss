@@ -6,16 +6,23 @@ sitemap: false
 
 section.page-wrapper{
   .post-body{
+    width: fit-content;
+    max-width: 1000px;
     padding: 0px;
-    overflow:hidden;
+    overflow: hidden;
   }
 
   .content-wrapper{
     margin: 0 auto 40px auto;
     padding: 50px 80px;
   }
+
+  .post-footer{
+    margin: 0px auto 30px auto;
+  }
 }
 
 img.feature{
+  display: block;
   max-width: 100%;
 }

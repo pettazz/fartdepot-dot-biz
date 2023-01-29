@@ -68,6 +68,13 @@
   }
 }
 
+h2.post-date{
+  font-weight: normal;
+  font-size: 16px;
+  color: #888;
+  margin: 0px;
+}
+
 body{
   background: #e4e4e4;
 }
@@ -106,14 +113,6 @@ section.page-wrapper{
 
   .post-footer{
     text-align: right;
-
-    h2{
-      small{
-        font-weight: normal;
-        font-size: 16px;
-        color: #888;
-      }
-    }
   }
 
   .post-alsos{
