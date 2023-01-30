@@ -51,9 +51,9 @@ $(document).ready(() => {
            .addClass('random-bg-' + rand.toString());
   });
 
-  $('a.share-link').click(function(eo){
+  const copyLinkFallback = (shareData) => {
     const dummy = document.createElement('input'),
-          url = $(this).data('url');
+          url = shareData.url;
 
     document.body.appendChild(dummy);
     dummy.value = url;
@@ -63,6 +63,20 @@ $(document).ready(() => {
 
     const toast = new bootstrap.Toast(document.getElementById('toast'));
     toast.show();
+  }
+
+  $('a.share-link').click(async () =>{
+    const shareData = {
+      title: $('title').text(),
+      text: $('meta[name=description]').attr('content'),
+      url: $('link[rel=canonical]').attr('href')
+    };
+
+    if(!navigator.canShare){
+      copyLinkFallback(shareData);
+    }else{
+      await navigator.share(shareData);
+    }    
   });
   
 });
