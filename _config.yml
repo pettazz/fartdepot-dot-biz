@@ -1,12 +1,11 @@
-title: Fart Depot
+title: Fart Depot dot Biz
 email: hello@fartdepot.biz
-description: >- 
-  Choo choo here it comes 
-  the fart into the
-  depot.
+description: stuff that i drew and i wrote, because if it's not posted somewhere, did i really make it?
 locale: en_US
 baseurl: ""
 url: "https://fartdepot.biz"
+
+twitter_username: fartdepot
 
 permalink: /:categories/:year/:month/:day/
 
