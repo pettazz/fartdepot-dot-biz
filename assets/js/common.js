@@ -17,11 +17,19 @@ $(document).ready(() => {
     menuEl.addClass('menu-active animate__animated animate__slideInLeft animate__faster')
       .fadeIn();
   });
-  $('#menu-close-button').click(() => {
+
+  const hideMenu = () => {
     $('nav.button').fadeIn();
     menuEl.removeClass('menu-active');
     menuEl.addClass('animate__animated animate__slideOutLeft animate__faster');
-  });
+  }
+
+  $('#menu-close-button').click(hideMenu);
+  $(document).on('keydown', function(eo) {
+     if (event.key == "Escape") {
+        hideMenu();
+     }
+   });
 
   $('.bg-replace').each(function(idx){
     $(this).removeClass('bg-replace')
