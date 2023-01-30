@@ -56,17 +56,14 @@
               <h1>&#8226;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;&nbsp;&#8226;</h1>
             </div>
 
-            <div class="post-footer">
-              <h2 class="post-date">i {{ category }} it on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></h2>
-            </div>
+            {% include post-footer.html %}
           
           {% endif %}
         </div>
 
         {% if category == "drew" %}
-          <div class="post-footer">
-            <h2 class="post-date">i {{ category }} it on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></h2>
-          </div>
+          {% include post-footer.html %}
+          {% include comicnav.html %}
         {% endif %}
 
         <div class="post-alsos">
@@ -103,6 +100,18 @@
       </footer>
       
     </main>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div id="toast" class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body">
+            Copied link to your clipboard
+          </div>
+          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+
   </body>
 
 </html>

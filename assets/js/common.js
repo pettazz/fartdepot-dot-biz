@@ -42,5 +42,19 @@ $(document).ready(() => {
            .removeClass('add-scrim')
            .addClass('random-bg-' + rand.toString());
   });
+
+  $('a.share-link').click(function(eo){
+    const dummy = document.createElement('input'),
+          url = $(this).data('url');
+
+    document.body.appendChild(dummy);
+    dummy.value = url;
+    dummy.select();
+    document.execCommand('copy');
+    document.body.removeChild(dummy);
+
+    const toast = new bootstrap.Toast(document.getElementById('toast'));
+    toast.show();
+  });
   
 });

@@ -18,11 +18,38 @@ section.page-wrapper{
   }
 
   .post-footer{
-    margin: 0px auto 30px auto;
+    max-width: 800px;
+    margin: 70px auto 0 auto;
+
+    .col{
+      padding: 0px 23px;
+    }
   }
 }
 
 img.feature{
   display: block;
   max-width: 100%;
+}
+
+nav.comic-nav{
+  max-width: 800px;
+  margin: 30px auto 40px auto;
+  font-size: 22px;
+  font-family: 'P22 Mackinac Pro', serif;
+  font-weight: 700;
+
+  a{
+    text-decoration: none;
+    color: lighten($teal, 10);
+
+    &:hover{
+      color: $teal;
+    }
+
+    &.disabled{
+      color: #777;
+      cursor: not-allowed;
+    }
+  }
 }
