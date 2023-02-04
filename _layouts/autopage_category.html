@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    {% capture title-override %}stuff i {{ page.autopages.display_name }}{% endcapture %}
+    {% include head.html %}
+    <link href="{{ site.url }}/assets/css/index.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      {% include normalnav.html %}
+
+      <section class="text-center page-wrapper">
+        <h1 class="mega">
+          look, i {{page.autopages.display_name}} it
+          {% if paginator.page > 1 %}
+            <small class="text-muted">page {{ paginator.page }}</small>
+          {% endif %}
+        </h1>
+
+        <div class="post-index">
+          <div class="container also-wrap">
+            <div class="row g-2 row-cols-2">
+              {% for post in paginator.posts %}
+                {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
+                {% include post-preview.html %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        {% include pager-buttons.html %}
+
+      </section>
+
+      <footer>
+        {% include footer.html %}
+      </footer>
+      
+    </main>
+  </body>
+
+</html>

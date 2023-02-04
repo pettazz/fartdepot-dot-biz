@@ -4,7 +4,42 @@ sitemap: false
 
 @import "common";
 @import "bignav";
+@import "random-bgs";
+@import "post-index";
 
 section.page-wrapper{
   background: $beige;
+  width: 100%;
+
+  .home-wrapper{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  .previews-container{
+    margin: 0 auto;
+    max-width: 1000px;
+
+    h1{
+      margin: 40px 20px;
+    }
+
+    .post-index{
+      margin-bottom: 20px;
+    }
+
+    .also-item.more-link{
+      padding: 0px;
+
+      a{
+        margin: 0 auto;
+
+        .mega{
+          font-size: 3rem;
+          line-height: 0.5;
+        }
+      }
+    }
+  }
 }

@@ -1,5 +1,17 @@
     <meta charset="utf-8">
-    <title>{% if title-override %}{{ title-override }} &#8211; {% elsif page.title %}{{ page.title }} &#11825; {% endif %}{% if page.pagination_info.curr_page and page.pagination_info.curr_page > 1 %}page {{ page.pagination_info.curr_page }} &#11825; {% endif %}{{ site.title }}</title>
+    <title>
+      {% if title-override %}
+        {{ title-override }} &#11825; 
+      {% elsif page.title %}
+        {% if page.title != site.title %}
+          {{ page.title }} &#11825; 
+        {% endif %}
+      {% endif %}
+      {% if page.pagination_info.curr_page and page.pagination_info.curr_page > 1 %}
+        page {{ page.pagination_info.curr_page }} &#11825; 
+      {% endif %}
+      {{ site.title }}
+    </title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 

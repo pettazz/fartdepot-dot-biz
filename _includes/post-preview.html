@@ -1,0 +1,17 @@
+<div class="col {{ leftRight }}">
+  {% capture bgClass %}{% if post.image %}bg-replace{% else %}random-bg-replace{% endif %}{% endcapture %}
+
+  {% if post.image.background %}
+    {% capture bgPath %}/assets/img/post-content/{{ post.image.background }}{% endcapture %}
+  {% elsif post.image.headliner %}
+      {% capture bgPath %}/assets/img/post-content/{{ post.image.headliner }}{% endcapture %}
+  {% elsif post.image.feature %}
+      {% capture bgPath %}/assets/img/post-content/{{ post.image.feature }}{% endcapture %}
+  {% endif %}
+  
+  <div class="add-scrim also-item {{ bgClass }}" data-bg="{{ bgPath }}">
+    <a class="stretched-link" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><h5>{{ post.title }}</h5></a>
+    <h6 class="sub">{{ post.date | date: "%B %d, %Y" }}</h6>
+    <p class="title-font">{{ post.excerpt }}</p>
+  </div>
+</div>

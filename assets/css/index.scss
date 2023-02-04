@@ -1,0 +1,27 @@
+---
+sitemap: false
+---
+
+@import "common";
+@import "normalnav";
+@import "random-bgs";
+@import "post-index";
+
+body{
+  background: #e4e4e4;
+}
+
+section.page-wrapper{
+  max-width: 1000px;
+  margin: 80px auto 20px auto;
+  min-height: 77vh;
+
+  h1{
+    margin-bottom: 50px;
+  }
+
+  section.pager-buttons{
+    margin-top: 60px;
+    font-family: 'P22 Mackinac Pro', serif;
+  }
+}

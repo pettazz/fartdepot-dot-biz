@@ -14,7 +14,25 @@ lsi: true
 markdown: kramdown
 safe: false
 
+pagination:
+  enabled: true
+  title: ':title - page :num'
+  per_page: 20
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
 
+autopages:
+  enabled: true
+  collections:
+    enabled: false
+  tags:
+    enabled: false
+  categories:
+    layouts:
+      - 'autopage_category.html'
+    permalink: '/:cat/'
 
 plugins:
   - jekyll-feed

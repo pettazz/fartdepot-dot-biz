@@ -9,18 +9,30 @@
     <main>
       {% include bignav.html %}
 
-      <section class="text-center page-wrapper">
-        <h1>fartin' soon!</h1>
+      <section class="page-wrapper">
+        <div class="home-wrapper">
+          {{ content }}
+        </div>
 
         <div class="previews-container">
           {% for category in site.categories %}
-            <h2><a name="{{ category | first }}">{{ category | first }}</a></h2>
-              <ul>
-              {% for post in category.last %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endfor %}
-              </ul>
-            </li>
+            <div class="post-index">
+              <div class="container also-wrap">
+                <h1>i recently {{ category | first }} these</h1>
+                <div class="row g-2 row-cols-2">
+                  {% for post in category.last limit:3 %}
+                    {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
+                    {% include post-preview.html %}
+                  {% endfor %}
+                  <div class="col right text-center">
+                    <div class="also-item more-link random-bg-replace d-flex align-items-center">
+                      <a class="stretched-link" href="/{{ category | first }}"><h3>look at more stuff i {{ category | first }}</h3>
+                      <h6 class="mega"><i class="fas fa-hand-point-right"></i></h6></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           {% endfor %}
         </div>
 

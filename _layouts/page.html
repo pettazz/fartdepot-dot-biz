@@ -16,12 +16,7 @@
       {% capture headliner %}{% if page.image.headliner %}/assets/img/post-content/{{ page.image.headliner }}{% endif %}{% endcapture %}
     {% endif %}
 
-    {% assign category = page.categories[0] %}
-    {% if category == "drew" %}
-      <link href="{{ site.url }}/assets/css/drew.css" rel="stylesheet">
-    {% else %}
-      <link href="{{ site.url }}/assets/css/wrote.css" rel="stylesheet">
-    {% endif %}
+    <link href="{{ site.url }}/assets/css/wrote.css" rel="stylesheet">
   </head>
 
   <body class="{% if page.image.background %} bg {% endif %}">
@@ -50,32 +45,6 @@
               {{ content }}
             </div>
           {% endif %}
-          {% if category == "wrote" %}
-
-            <div class="post-separator">
-              <h1>&#8226;&nbsp;&nbsp;&nbsp;&#8226;&nbsp;&nbsp;&nbsp;&#8226;</h1>
-            </div>
-
-            {% include post-footer.html %}
-          
-          {% endif %}
-        </div>
-
-        {% if category == "drew" %}
-          {% include post-footer.html %}
-          {% include comicnav.html %}
-        {% endif %}
-
-        <div class="post-alsos post-index">
-          <h3 class="title-text">i also {{ category }}</h3>
-          <div class="container also-wrap">
-            <div class="row g-2 row-cols-2">
-              {% for post in site.related_posts limit:4 %}
-                {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
-                {% include post-preview.html %}
-              {% endfor %}
-            </div>
-          </div>
         </div>
       </section>
 
@@ -84,17 +53,6 @@
       </footer>
       
     </main>
-
-    <div class="toast-container position-fixed bottom-0 end-0 p-3">
-      <div id="toast" class="toast align-items-center text-bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="d-flex">
-          <div class="toast-body">
-            Copied link to your clipboard
-          </div>
-          <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-      </div>
-    </div>
 
   </body>
 
