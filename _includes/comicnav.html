@@ -1,16 +1,16 @@
 <nav class="comic-nav container">
   <div class="row align-items-center">
       <div class="col">
-        <a href="{{ page.first_in_category.url }}"><i class="fas fa-fast-backward"></i> First</a>
+        <a href="{{ site.url }}{{ page.first_in_category.url }}"><i class="fas fa-fast-backward"></i> First</a>
       </div>
       <div class="col">
-        <a {% if page.previous_in_category.url %} href="{{ page.previous_in_category.url }}"{% else %}class="disabled"{% endif %}><i class="fas fa-step-backward"></i> Previous</a>
+        <a {% if page.previous_in_category.url %} href="{{ site.url }}{{ page.previous_in_category.url }}"{% else %}class="disabled"{% endif %}><i class="fas fa-step-backward"></i> Previous</a>
       </div>
       <div class="col text-end">
-        <a {% if page.next_in_category.url %} href="{{ page.next_in_category.url }}"{% else %}class="disabled"{% endif %}>Next <i class="fas fa-step-forward"></i></a>
+        <a {% if page.next_in_category.url %} href="{{ site.url }}{{ page.next_in_category.url }}"{% else %}class="disabled"{% endif %}>Next <i class="fas fa-step-forward"></i></a>
       </div>
       <div class="col text-end">
-        <a href="{{ page.last_in_category.url }}">Latest <i class="fas fa-fast-forward"></i></a>
+        <a href="{{ site.url }}{{ page.last_in_category.url }}">Latest <i class="fas fa-fast-forward"></i></a>
       </div>
   </div>
 </nav>

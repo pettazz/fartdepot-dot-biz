@@ -7,7 +7,7 @@
       {% capture background %}{% if page.image.background %}/assets/img/post-content/{{ page.image.background }}{% endif %}{% endcapture %}
       <style type="text/css">
           body {
-            background: url({{ background }}) no-repeat center center fixed !important;
+            background: url({{ site.url }}{{ background }}) no-repeat center center fixed !important;
             background-size: cover !important;
           }
       </style>
@@ -31,7 +31,7 @@
       <header class="post-header {% if page.image.headliner %} headliner {% endif %}">
         {% if page.image.headliner %}
           <div class="add-scrim headliner-wrap">
-            <img src="{{ headliner }}" />
+            <img src="{{ site.url }}{{ headliner }}" />
           </div>
         {% endif %}
         <div class="title-wrap">

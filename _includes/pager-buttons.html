@@ -3,19 +3,19 @@
           <nav>
             <ul class="pagination justify-content-center">
               {% if paginator.previous_page %}
-              <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fas fa-hand-point-left"></i> newer</a></li>
+              <li class="page-item"><a class="page-link" href="{{ site.url }}{{ paginator.previous_page_path }}"><i class="fas fa-hand-point-left"></i> newer</a></li>
               {% endif %}
 
               {% if paginator.page_trail %}
                 {% for trail in paginator.page_trail %}
                   <li class="page-item {% if page.url == trail.path %}active{% endif %}">
-                      <a class="page-link" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }} {% if page.url == trail.path %}<span class="sr-only">(current)</span>{% endif %}</a>
+                      <a class="page-link" href="{{ site.url }}{{ trail.path }}" title="{{trail.title}}">{{ trail.num }} {% if page.url == trail.path %}<span class="sr-only">(current)</span>{% endif %}</a>
                   </li>
                 {% endfor %}
               {% endif %}
 
               {% if paginator.next_page %}
-              <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">older <i class="fas fa-hand-point-right"></i></a></li>
+              <li class="page-item"><a class="page-link" href="{{ site.url }}{{ paginator.next_page_path }}">older <i class="fas fa-hand-point-right"></i></a></li>
               {% endif %}
             </ul>
           </nav>
