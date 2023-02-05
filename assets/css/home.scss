@@ -29,8 +29,14 @@ section.page-wrapper{
       margin-bottom: 20px;
     }
 
+    .col-sm:last-child{
+      min-width: 40vw;
+    }
+
     .also-item.more-link{
-      padding: 0px;
+      padding: 20px;
+      background: black;
+      background-clip: padding-box;
 
       a{
         margin: 0 auto;

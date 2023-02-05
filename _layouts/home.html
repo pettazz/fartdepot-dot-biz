@@ -15,18 +15,20 @@
         </div>
 
         <div class="previews-container">
-          {% for category in site.categories %}
+          {% assign catNames = "drew,wrote" | split: "," %}
+          {% for cat in catNames %}
+            {% assign category = site.categories[cat] %}
             <div class="post-index">
               <div class="container also-wrap">
-                <h1>i recently {{ category | first }} these</h1>
+                <h1>i recently {{ cat }} these</h1>
                 <div class="row g-2 row-cols-2">
-                  {% for post in category.last limit:3 %}
+                  {% for post in category limit:3 %}
                     {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
                     {% include post-preview.html %}
                   {% endfor %}
-                  <div class="col right text-center">
-                    <div class="also-item more-link random-bg-replace d-flex align-items-center">
-                      <a class="stretched-link" href="{{ site.url }}/{{ category | first }}"><h3>look at more stuff i {{ category | first }}</h3>
+                  <div class="col-sm">
+                    <div class="also-item more-link d-flex align-items-center text-center">
+                      <a class="stretched-link" href="{{ site.url }}/{{ cat }}"><h3>look at more stuff i {{ cat }}</h3>
                       <h6 class="mega"><i class="fas fa-hand-point-right"></i></h6></a>
                     </div>
                   </div>

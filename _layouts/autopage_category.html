@@ -20,7 +20,7 @@
 
         <div class="post-index">
           <div class="container also-wrap">
-            <div class="row g-2 row-cols-2">
+            <div class="row g-2">
               {% for post in paginator.posts %}
                 {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
                 {% include post-preview.html %}

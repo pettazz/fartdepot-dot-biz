@@ -24,4 +24,12 @@ section.page-wrapper{
     margin-top: 60px;
     font-family: 'P22 Mackinac Pro', serif;
   }
+
+  .post-index{
+    .also-wrap{
+      .also-item{
+        min-width: 30vw;
+      }
+    }
+  }
 }
