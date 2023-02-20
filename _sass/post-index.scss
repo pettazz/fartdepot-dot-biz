@@ -1,5 +1,10 @@
 .post-index{
   .also-wrap{
+    .col-sm{
+      @media (max-width: $bs-break-sm) {
+        width: 95vw;
+      }
+    }
     .also-item{
       position: relative;
       color: #e4e4e4;

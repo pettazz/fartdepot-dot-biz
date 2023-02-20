@@ -28,7 +28,7 @@ section.page-wrapper{
 }
 
 footer{
-  z-index: 999;
+  z-index: 2;
   position: relative;
   margin-top: -15px; // this is gonna bite me in the ass later, caused by home nav
   border-top: 5px solid black;

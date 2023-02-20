@@ -17,6 +17,8 @@ nav.button{
 }
 
 nav.main-menu{
+  $nav-break-sm: 534px;
+
   display: none;
 
   filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.3));
@@ -29,6 +31,10 @@ nav.main-menu{
   border-top: 10px solid $beige;
   border-bottom: 10px solid $beige;
   border-image: url('/assets/img/inky_border_beige_thic.png') 52 repeat;
+
+  @media (max-width: $nav-break-sm) {
+    height: 340px;
+  }
 
   div.nav-inner{
     background: $beige;
@@ -57,6 +63,11 @@ nav.main-menu{
     padding-left: none;
     width: 184px;
 
+    @media (max-width: $nav-break-sm) {
+      width: 500px; //force it to take up too much space and wrap the rest
+      text-align: left;
+    }
+
     a{
       transition-duration: 0s;
       display: inline-block;
@@ -70,6 +81,9 @@ nav.main-menu{
 
   .menu-holster{
     text-align: left;
+    @media (max-width: $nav-break-sm) {
+      text-align: right;
+    }
 
     a{
       padding: none;
@@ -79,6 +93,11 @@ nav.main-menu{
       background-repeat: no-repeat;
       background-size: 100%;
       margin: 5px auto 0px 0px;
+
+      @media (max-width: 300px) {
+        width: 200px; // getting too close to my width 
+        height: 30px;
+      }
     }
 
     a.drewit{
