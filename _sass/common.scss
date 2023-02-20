@@ -37,10 +37,31 @@ footer{
 
   .footer-wrap{
     margin: 0px auto;
-    padding: 10px 0px;
+    padding: 30px 10px;
     background: #000;
     height: 100%;
     width: 100%;
+
+    ul{
+      padding: 0px;
+
+      li{
+        list-style: none;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .logos{
+      text-align: center;
+
+      @media (max-width: $bs-break-lg) {
+        text-align: left;
+      }
+    }
+
   }
 }
 
