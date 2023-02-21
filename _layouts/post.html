@@ -67,11 +67,10 @@
         {% endif %}
 
         <div class="post-alsos post-index">
-          <h3 class="title-text">i also {{ category }}</h3>
+          <h3 class="title-text">i also made</h3>
           <div class="container also-wrap">
             <div class="row g-2 row-cols-2">
               {% for post in site.related_posts limit:4 %}
-                {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
                 {% include post-preview.html %}
               {% endfor %}
             </div>

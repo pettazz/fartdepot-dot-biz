@@ -22,7 +22,6 @@
           <div class="container also-wrap">
             <div class="row g-2">
               {% for post in paginator.posts %}
-                {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
                 {% include post-preview.html %}
               {% endfor %}
             </div>

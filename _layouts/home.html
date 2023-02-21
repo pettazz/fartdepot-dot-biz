@@ -22,8 +22,7 @@
               <div class="container also-wrap">
                 <h1>i recently {{ cat }} these</h1>
                 <div class="row g-2 row-cols-2">
-                  {% for post in category limit:3 %}
-                    {% capture leftRight %}{% cycle 'left', 'right' %}{% endcapture %}
+                  {% for post in category limit:5 %}
                     {% include post-preview.html %}
                   {% endfor %}
                   <div class="col-sm">
