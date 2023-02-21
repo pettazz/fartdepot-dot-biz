@@ -1,0 +1,11 @@
+---
+published: true
+layout: post
+title:  "No Hands"
+excerpt: "I never have this problem, all the hands I draw are very natural and lifelike."
+date:   2022-03-28 06:09:00 -0500
+categories: drew
+tags: [inktober, drawing, art, hands]
+image:
+  feature: nohands.jpg
+---

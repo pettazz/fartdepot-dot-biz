@@ -1,0 +1,11 @@
+---
+published: true
+layout: post
+title:  "A Zombl"
+excerpt: "The gig economy lurches towards us all."
+date:   2022-03-24 06:09:00 -0500
+categories: drew
+tags: [inktober, zombie, app, phone, Uber, gig economy]
+image:
+  feature: zombl.jpg
+---

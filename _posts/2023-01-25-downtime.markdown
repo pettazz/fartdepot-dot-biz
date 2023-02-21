@@ -1,0 +1,39 @@
+---
+published: true
+layout: post
+title:  "Downtime"
+date:   2023-01-25 22:40:00 -0500
+categories: wrote
+tags: [creative, Elon Musk, twitter, office, violence, twist, engineer, hero, Die Hard]
+image:
+  background: tower.jpg
+---
+She looked at him with an exasperated kind of pleading. "It's not my first time talking someone back from the edge, okay?"
+
+He knew that she was right. He knew that it was true. He still couldn't bring himself to leave her alone. "But what if you need backup?"
+
+"I will be fine," the pleading was a little less exasperated and a little more plain old angry now.
+
+He relaxed his grip on her hand a little and she instantly pulled away. Her eyes softened just the slightest bit before she turned and ran down the hallway. "I'll be home before you know it! I love you," her voice trailed off and was punctuated by a fire door slamming shut.
+
+He stood in the dark, the only light coming from the faint glow of the emergency exit indicators and the occasional sparks falling dramatically from the conduits in the ruined ceiling. Helicopters circled the building, thousands of people crowded against the police barricades on the streets outside, and at least a few hundred other people were trapped in here with him, but he felt like he was completely alone. 
+
+Like she said, this wasn't the first time she'd gone off to save the day in an incredible display of heroism, bravery, and whatever else it takes to make someone do this kind of thing all on their own. Hell, it wasn't even the first time this month. He was proud of her, he truly was, but it never got easier knowing that she was not only in danger but running head first into the heart it and there was nothing he could do to help. 
+
+He started trudging his way through the shattered glass and scattered desk chairs and all the other debris that had once comprised what seemed like it was probably a very nice open office plan. It was probably a pretty nice gig, until recent events of course. Your boss threatening to blow the whole HQ to hell is probably the kind of thing that gets you kicked off the esteemed Best Places to Work list. When he pushed open the heavy staircase door, one solitary evacuation alarm was still wailing away a few floors down, echoing up the concrete tunnel at him. *Yeah, yeah, I know, I'm on my way out.* Everybody was trying to get rid of him tonight it seemed.
+
+When he finally reached the ground floor, he heard a few distant rumblings that he hoped were just, oh who knows, low flying planes maybe. Yeah. Nothing serious. Nothing that meant any kind of trouble for her. No way, she had it all handled. As usual.
+
+There were rows of police crouched down and hiding badly behind various columns and potted plants pointing their guns at the door as he slowly opened it and walked through with his hands up. "I'm a civilian! I'm just a guy trying to get out!" They didn't seem like they had any idea what they were expecting either, but it certainly wasn't just some guy trying to go home. "Uh can I go? Please?"
+
+They looked around at each other confused and eventually nobody had a gun aimed at him anymore. One of them asked, "is he still in there?"
+
+"He is but--"
+
+As if in answer to the cop's question, there was a sudden crunching thud outside the front door. Everyone jumped, some of the police drew down in random directions, but he and the rest of them ran outside. He knew he didn't want to see what it was either way, but he had to know for sure.
+
+It was him. Well, it was a bunch of stuff that had once been him anyway, no doubt about it. He looked up toward the top of the building and thought he could just barely see a hint of her hair blowing in the wind.
+
+His phone pinged with a notification and he grabbed it out of his pocket without thinking. "Elon Musk dead after dramatic shutdown standoff," the Twitter notification read. *Yeah, no shit.* It was followed by another one. A text from his Site Reliability Engineer wife. 
+
+"He's the only one who will be experiencing any downtime tonight."

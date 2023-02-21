@@ -1,0 +1,11 @@
+---
+published: true
+layout: post
+title:  "8-Legged Cat"
+excerpt: "Just imagine how good this guy is at chasing a laser pointer all over your walls."
+date:   2022-03-09 06:09:00 -0500
+categories: drew
+tags: [inktober, animals, monster, spider, hybrid, cute, gross, cat]
+image:
+  feature: 8leggedcat.jpg
+---

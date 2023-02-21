@@ -1,0 +1,11 @@
+---
+published: true
+layout: post
+title:  "The Goliath"
+excerpt: "The heroes of my new dystopian thriller are saved by being slightly smaller than average height."
+date:   2022-03-06 06:09:00 -0500
+categories: drew
+tags: [inktober, robot, giant, citizen, future, sci-fi]
+image:
+  feature: thegoliath.jpg
+---
