@@ -16,6 +16,10 @@ nav.button{
   }
 }
 
+#menustate{
+  display: none;
+}
+
 nav.main-menu{
   $nav-break-sm: 534px;
 
@@ -51,6 +55,7 @@ nav.main-menu{
       height: 100%;
       width: 100%;
       cursor: pointer;
+      color: rgb(33, 37, 41);
 
       &:hover{
         color: #666;
@@ -136,4 +141,12 @@ nav.main-menu{
         url('/assets/img/nav/iamit_hover@2x.png') 2x);
     }
   }
+}
+
+:is(#menustate:checked, #menustate:target) ~ nav.main-menu{
+  display: block;
+}
+
+:is(#menustate:checked, #menustate:target) ~ nav.button{
+  display: none;
 }

@@ -1,5 +1,8 @@
+      <input aria-hidden="true" type="checkbox" id="menustate" />
+
       <nav class="button">
-        <a id="menu-display-button"><img src="{{ site.url }}/assets/img/fd.png" alt="Small fart depot dot biz logo" /></a>
+        <label for="menustate" aria-hidden="true">
+          <a id="menu-display-button" href="#menustate" role="button"><img src="{{ site.url }}/assets/img/fd.png" alt="Small fart depot dot biz logo" /></a>
       </nav>
 
       <nav class="main-menu">
@@ -9,7 +12,9 @@
               <div class="col">
                 <div class="row">
                   <div class="col-2 close-button-holster">
-                    <a id="menu-close-button"><i class="fas fa-times-circle menu-close-button"></i></a>
+                    <label for="menustate" aria-hidden="true">
+                      <a id="menu-close-button" href="#" role="button"><i class="fas fa-times-circle menu-close-button"></i></a>
+                    </label>
                   </div>
                   <div class="col logo-holster">
                     <a href="{{ site.url }}" alt="fart depot home"></a>
