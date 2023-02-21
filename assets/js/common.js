@@ -12,13 +12,15 @@ $(document).ready(() => {
       .removeClass('animate__faster');
   });
 
-  $('#menu-display-button').click(() => {
+  $('#menu-display-button').click((eo) => {
+    eo.preventDefault();
     $('nav.button').fadeOut();
     menuEl.addClass('menu-active animate__animated animate__slideInLeft animate__faster')
       .fadeIn();
   });
 
-  const hideMenu = () => {
+  const hideMenu = (eo) => {
+    eo.preventDefault();
     $('nav.button').fadeIn();
     menuEl.removeClass('menu-active');
     menuEl.addClass('animate__animated animate__slideOutLeft animate__faster');
