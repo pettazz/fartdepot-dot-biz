@@ -29,7 +29,7 @@ $(document).ready(() => {
   $('#menu-close-button').click(hideMenu);
   $(document).on('keydown', function(eo) {
      if (event.key == "Escape") {
-        hideMenu();
+        hideMenu(eo);
      }
    });
 
