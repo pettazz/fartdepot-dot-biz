@@ -7,6 +7,8 @@
     {% else %}
       {% if page.image.feature %}
         {% capture postImage %}{{ contentPath }}{{ page.image.feature }}{% endcapture %}
+      {% elsif page.image.background %}
+        {% capture postImage %}{{ contentPath }}{{ page.image.background }}{% endcapture %}
       {% else %}
         {% assign postImage = 'assets/img/og/og-image.jpg' %}
       {% endif %}
