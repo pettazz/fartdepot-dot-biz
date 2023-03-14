@@ -1,7 +1,10 @@
 section.logo-dumpster{
   padding: 30px;
   width: 100%;
-  background: #e4e4e4;
+  background: -webkit-image-set(
+        url('/assets/img/doodlemangle.jpg') 1x,
+        url('/assets/img/doodlemangle@2x.jpg') 2x);
+  background-position: center;
   background-size: cover;
 
   img{
@@ -12,7 +15,7 @@ section.logo-dumpster{
     filter: drop-shadow(2px 1px 0px darken($beige, 15)) 
             drop-shadow(3px 2px 0px darken($beige, 10)) 
             drop-shadow(4px 3px 0px darken($beige, 5))
-            drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
+            drop-shadow(0px 0px 5px black);
   }
 
   @media (max-width: $bs-break-md){
