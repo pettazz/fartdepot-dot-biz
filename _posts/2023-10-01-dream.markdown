@@ -1,0 +1,15 @@
+---
+published: true
+layout: post
+title:  "Dream"
+excerpt: "THE WIND FISH IN NAME ONLY, FOR IT IS NEITHER."
+date:   2023-10-01 21:11:00 -0500
+categories: drew
+tags: [inktober, dream, animals, whale, Nintendo, Zelda, "Link's Awakening", video games, psychedelic, wind fish]
+image:
+  feature: inktober23/1-dream.jpg
+---
+
+The most famous dreamer I know.
+
+*Of course* I would choose the most intricate thing I could think of on day one of Inktober so I am immediately behind. That's just how we do things around here. 

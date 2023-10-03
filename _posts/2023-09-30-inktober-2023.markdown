@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Inktober 2023"
+excerpt: "This time, it's Inktober"
+date:   2023-09-30 12:00:00 -0500
+categories: drew
+tags: [inktober]
+image:
+  feature: inktober23/intro.jpg
+---
+
+Time once again for Inktober, the month where I try desperately to keep up with one drawing per day. This year it's just plain old Inktober, using the "official" prompts. No bits or gimmicks or whatever. And definitely no AI. 
