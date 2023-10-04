@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Path"
+excerpt: "There's probably something good down there, right?"
+date:   2023-10-03 14:28:31 -0500
+categories: drew
+tags: [inktober, forest, trees, path, dark, scary, woods, sinister, spooky]
+image:
+  feature: inktober23/3-path.jpg
+---
+
+I figured I should probably do *something* on-theme for the month. Not sure what madness possessed me to think this would be easy; trees have so many branches!
