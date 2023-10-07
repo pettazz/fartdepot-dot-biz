@@ -10,4 +10,6 @@ image:
   feature: inktober23/5-map.jpg
 ---
 
-Yes I have done almost this same bit before get off my ass it's the only thing I could come up with for "MAP"
+Yes I have done almost this same bit before get off my ass it's the only thing I could come up with for `MAP`.
+
+Anyway I am certainly getting my money's worth out of the "cloud" pattern brush this year, huh?
