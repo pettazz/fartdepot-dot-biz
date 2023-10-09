@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Drip"
+excerpt: "The Swagged Out Pope is here to bless your style"
+date:   2023-10-07 19:00:01 -0500
+categories: drew
+tags: [inktober, The Pope, drip, Bernie, Futurama, Professor Farnsworth, looking cool, swagged out]
+image:
+  feature: inktober23/7-drip.jpg
+---
+
+I think I accidentally made Bernie Sanders Pope. 
