@@ -1,0 +1,17 @@
+---
+published: true
+layout: post
+title:  "Toad"
+excerpt: "Few people today know that the character was based off a real guy. This was Miyamoto's neighbor."
+date:   2023-10-08 19:00:01 -0500
+categories: drew
+tags: [inktober, Nintendo, Toad, frog, Pentiment, video games, animals, cute]
+image:
+  feature: inktober23/8b-toad.jpg
+---
+
+And because I love him very much look at just the regular guy
+
+![no costume toad](/assets/img/post-content/inktober23/8a-toad.jpg)
+
+I would die for him
