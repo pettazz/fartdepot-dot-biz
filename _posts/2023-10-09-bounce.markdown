@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Bounce"
+excerpt: "The seige lasted for days because they were just using beach balls in the catapaults"
+date:   2023-10-09 15:47:37 -0500
+categories: drew
+tags: [inktober, castle, bouncy castle, seige, medieval, knight]
+image:
+  feature: inktober23/9-bounce.jpg
+---
+
+I will admit this one kind of got away from me. Drawing a few hundred bouncy castle knights absolutely did not appeal to me when I got there so what I did instead was simply not.
