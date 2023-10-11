@@ -2,7 +2,7 @@
 published: true
 layout: post
 title:  "Bounce"
-excerpt: "The seige lasted for days because they were just using beach balls in the catapaults"
+excerpt: "The seige lasted for days because they were just using beach balls in the catapults"
 date:   2023-10-09 15:47:37 -0500
 categories: drew
 tags: [inktober, castle, bouncy castle, seige, medieval, knight]
