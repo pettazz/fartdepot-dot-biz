@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Spiders"
 excerpt: "They're pointing because they're both arachnophobic."
-date:   2023-10-02 12:20:21 -0500
+date:   2023-10-02
 categories: drew
 tags: [inktober, spiders, animals, "Spider-Man", meme, bugs]
 image:

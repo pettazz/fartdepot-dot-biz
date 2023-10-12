@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Golden"
 excerpt: "Rule of Acquisition 33: It never hurts to suck up to the boss."
-date:   2023-10-06 19:00:01 -0500
+date:   2023-10-06
 categories: drew
 tags: [inktober, Star Trek, Ferengi, Grand Nagus, golden staff, faces, aliens, sci-fi]
 image:

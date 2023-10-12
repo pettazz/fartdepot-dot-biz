@@ -3,7 +3,7 @@ published: true
 layout: post
 title:  "Dream"
 excerpt: "THE WIND FISH IN NAME ONLY, FOR IT IS NEITHER."
-date:   2023-10-01 15:11:00 -0500
+date:   2023-10-01
 categories: drew
 tags: [inktober, dream, animals, whale, Nintendo, Zelda, "Link's Awakening", video games, psychedelic, wind fish]
 image:
