@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Fortune"
+excerpt: "Oh my god! It came true!"
+date:   2023-10-10
+categories: drew
+tags: [inktober, rattober, rats, animals, fortune cookies, snacks, prophecy]
+image:
+  feature: inktober23/10-fortune.jpg
+---
+
+Honestly I'm glad to have discovered #rattober because these one word prompts are getting a little challenging for me.
