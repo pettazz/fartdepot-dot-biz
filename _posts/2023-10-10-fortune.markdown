@@ -10,4 +10,4 @@ image:
   feature: inktober23/10-fortune.jpg
 ---
 
-Honestly I'm glad to have discovered #rattober because these one word prompts are getting a little challenging for me.
+Honestly I'm glad to have discovered [#rattober](https://www.instagram.com/explore/tags/rattober2023/) because these one word prompts are pretty thin to work with when I'm used to like, [weirdly specific half sentences made up by a computer with bad feelings](https://fartdepot.biz/drew/2022/03/22/).
