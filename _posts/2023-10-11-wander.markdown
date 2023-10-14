@@ -1,0 +1,15 @@
+---
+published: true
+layout: post
+title:  "Wander"
+excerpt: "Sometimes people have pretty different strategies for solving these mazes."
+date:   2023-10-11
+categories: drew
+tags: [inktober, wander, corn maze, fall, indifference to death]
+image:
+  feature: inktober23/11-wander.jpg
+---
+
+Do not try to solve this maze I accidentally made non-euclidean corn.
+
+Also, I can't believe I already blew Wanderer above the Sea of Fog on `Map`, if only I had some way of knowing what these prompts would be ahead of time...
