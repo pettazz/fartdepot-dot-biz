@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Spicey"
+excerpt: "I uhhh, I don't think that E belongs there..."
+date:   2023-10-12
+categories: drew
+tags: [inktober, spelling, spices, food, teeth, monster]
+image:
+  feature: inktober23/12-spicey.jpg
+---
+
+At first I thought `spicey` was some Queen's English spelling bullshit, so I'd make it maybe a fancy boy getting glowered at by American spices, but it turns out whoever made the prompts just doesn't know how to spell. 
