@@ -1,0 +1,12 @@
+---
+published: true
+layout: post
+title:  "Rise"
+excerpt: "The Night of the Never Falling Asleep Because You're Cringing About it Again"
+date:   2023-10-13
+categories: drew
+tags: [inktober, rise, embarrassing, zombie, grave, cemetary, tomb, memory]
+image:
+  feature: inktober23/13-rise.jpg
+---
+
