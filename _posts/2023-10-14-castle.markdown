@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Castle"
+excerpt: "You are being sacrificed, but don't worry it won't be *entirely* in vain"
+date:   2023-10-14
+categories: drew
+tags: [inktober, castle, chess, board games, games]
+image:
+  feature: inktober23/14-castle.jpg
+---
+
+I figured by the time I finished drawing it I'd come up with some funny dialogue to add like "oh shit my king the whole castle is getting moved" or whatever but instead what I did was not that at all.
