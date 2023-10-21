@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Dagger"
+excerpt: "This mountain of cheap daggers is where Riverwood used to be."
+date:   2023-10-15
+categories: drew
+tags: [inktober, dagger, muscles, Skyrim, video games, strong, level up]
+image:
+  feature: inktober23/15-dagger.jpg
+---
+
+Skyrim jokes are making a comeback late in 2023, mark my words. I mean what are people gonna do, play Starfield? Grow up.
