@@ -1,0 +1,11 @@
+---
+published: true
+layout: post
+title:  "Angel"
+excerpt: "Biblically Accurate Clippy is here to help you write a biblically accurate cover letter."
+date:   2023-10-16
+categories: drew
+tags: [inktober, angel, Clippy, Microsoft, Windows, computers, biblically accurate]
+image:
+  feature: inktober23/16-angel.jpg
+---
