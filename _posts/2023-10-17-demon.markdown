@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Demon"
+excerpt: "Please do not pet any of Demon King Bael's heads."
+date:   2023-10-17
+categories: drew
+tags: [inktober, demon, biblically accurate, gross, monster, animals, hybrid, cat, frog]
+image:
+  feature: inktober23/17-demon.jpg
+---
+
+Just in case you were wondering, I did not invent this nightmare. It's from [The Dictionnaire Infernal](https://www.meisterdrucke.us/fine-art-prints/Louis-Le-Breton/920961/Bael---Baal---%28demon%29---Bael-is-the-head-of-the-infernal-power---in-“Le-dictionnaire-infernal”-by-Collin-de-Plancy---Engraving-by-L.-Breton.-Paris.html).
