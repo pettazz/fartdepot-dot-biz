@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Saddle"
+excerpt: "Put a level in Wonder where this happens, cowards."
+date:   2023-11-07
+categories: drew
+tags: [inktober, animals, Nintendo, Mario, Yoshi, video games, realism]
+image:
+  feature: inktober23/18-saddle.jpg
+---
+
+{% youtube "https://www.youtube.com/embed/30Y9x1T-Y1U" %}
