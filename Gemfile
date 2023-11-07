@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-paginate-v2'
+  gem 'jekyll-youtube'
 end
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
