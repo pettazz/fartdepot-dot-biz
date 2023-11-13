@@ -1,0 +1,13 @@
+---
+published: true
+layout: post
+title:  "Plump"
+excerpt: "Mario only calls him his nemesis because he's jealous of that dump truck."
+date:   2023-11-13
+categories: drew
+tags: [inktober, Nintendo, Wario, video games, booty, twerk, butt]
+image:
+  feature: inktober23/19-plump.jpg
+---
+
+I almost did this for `Demon` a few back but with a more devilish smile and I was worried it would be too powerful.
