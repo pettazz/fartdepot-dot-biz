@@ -1,0 +1,12 @@
+---
+published: true
+layout: post
+title:  "Frost"
+excerpt: "The freeze gun has an infrequently used buttercream setting."
+date:   2023-11-13
+categories: drew
+tags: [inktober, Batman, Mr Freeze, DC, comics, cake, villains]
+image:
+  feature: inktober23/20-frost.jpg
+---
+
