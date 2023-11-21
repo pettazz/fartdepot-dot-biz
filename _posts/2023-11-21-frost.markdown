@@ -2,7 +2,7 @@
 published: true
 layout: post
 title:  "Frost"
-excerpt: "The freeze gun has an infrequently used buttercream setting."
+excerpt: "Although infrequently used, the buttercream setting on the freeze gun can come in handy."
 date:   2023-11-13
 categories: drew
 tags: [inktober, Batman, Mr Freeze, DC, comics, cake, villains]
@@ -10,3 +10,4 @@ image:
   feature: inktober23/20-frost.jpg
 ---
 
+I was originally going to do the Schwarzenegger version but my god have you seen the amount of 90s bullshit details all over that suit?
