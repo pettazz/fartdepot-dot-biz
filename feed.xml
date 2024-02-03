@@ -25,10 +25,6 @@ sitemap: false
   <published>{{ post.date | date_to_xmlschema }}</published>
   {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
   <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
-  <author>
-    <name>{{ author.name }}</name>
-    <uri>{{ site.url }}</uri>
-  </author>
   <summary>{{ post.excerpt }}</summary>
   {% if post.image.feature %}<media:content xmlns:media="http://search.yahoo.com/mrss/" url="{{ site.url }}/assets/img/post-content/{{ post.image.feature }}" medium="image" type="image/jpeg" />{% endif %}
   <content type="html">{% if post.image.headliner %}&lt;img src=&quot;{{ site.url }}/assets/img/post-content/{{ post.image.headliner }}&quot; /&gt;{% endif %}{{ post.content | xml_escape }}
