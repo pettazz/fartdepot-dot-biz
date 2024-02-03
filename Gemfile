@@ -4,7 +4,6 @@ gem "jekyll", "~> 4.3.1"
 gem "fastimage", "~> 2.2.0"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-tagging-related_posts'
   gem 'jekyll-paginate-v2'
   gem 'jekyll-youtube'

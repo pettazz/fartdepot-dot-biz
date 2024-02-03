@@ -7,6 +7,10 @@ url: "https://fartdepot.biz"
 
 twitter_username: fartdepot
 
+owner: 
+  name: Fart Depot
+  email: hello@fartdepot.biz
+
 permalink: /:categories/:year/:month/:day/
 
 lsi: true
@@ -34,8 +38,7 @@ autopages:
       - 'autopage_category.html'
     permalink: '/:cat/'
 
-plugins:
-  - jekyll-feed
+#plugins:
 
 sass:
   sass_dir: _sass
