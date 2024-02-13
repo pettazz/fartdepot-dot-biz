@@ -1,0 +1,13 @@
+---
+permalink: /400.html
+layout: page
+title: Not Allowed
+pagination: 
+  enabled: false
+---
+
+# Bad Request
+
+<img style="display: block; margin: 0 auto; width: 70%" src="/assets/img/400.jpg" />
+
+Whatever you're trying to do is not allowed. Try doing something that's allowed instead.

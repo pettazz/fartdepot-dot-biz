@@ -1,0 +1,13 @@
+---
+permalink: /404.html
+layout: page
+title: 404 Not Found
+pagination: 
+  enabled: false
+---
+
+# Not Found
+
+<img style="display: block; margin: 0 auto; width: 70%" src="/assets/img/404.jpg" />
+
+Whatever you're looking for doesn't exist here. Try looking for something that does instead.

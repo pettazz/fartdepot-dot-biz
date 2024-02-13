@@ -1,0 +1,13 @@
+---
+permalink: /500.html
+layout: page
+title: Error
+pagination: 
+  enabled: false
+---
+
+# Something Went Wrong
+
+<img style="display: block; margin: 0 auto; width: 70%" src="/assets/img/500.jpg" />
+
+It's my fault, honestly. Try again later or [let me know about it](mailto:hello@fartdepot.biz?subject=Website%27s%20all%20fucked%20up).
