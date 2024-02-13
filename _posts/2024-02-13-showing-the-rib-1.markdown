@@ -4,12 +4,13 @@ layout: post
 title:  "Showing the Rib"
 date:   2024-02-13 12:54:00 -0500
 categories: wrote
+excerpt: "It had been nearly three full nights now and his fever hadn’t broken. Meredith did not know if that was better or worse, but she knew it was bad."
 tags: [creative, horror, monster, bones, Showing the Rib, medieval, villagers, sinister]
 image:
   background: hearth.jpg
 
 ---
-It had been nearly three full nights now and her fever hadn’t broken. This was longer than any of the others had been ill before it had come to its ultimate consequence, but Meredith did not know what that meant. He was the youngest by far yet to be afflicted, perhaps he was fighting it off. No, she did not want to hope. Hope had long ago fled from this place and her family should have left with it. But the death of her husband at the hands—no, the ungues—of the thing that was once their neighbor Albert had forestalled any intentions they had of leaving. Martin had defended his father, killing the abomination with the pointed end of a spade, but not before it inflicted the mortal wound, and, it seems, passed on its blight to Martin who now lay sweating and shivering in his bed. No, it was foolish to think that there might be anything like hope still found in the village of Dunbourne.
+It had been nearly three full nights now and his fever hadn’t broken. This was longer than any of the others had been ill before it had come to its ultimate consequence, but Meredith did not know what that meant. He was the youngest by far yet to be afflicted, perhaps he was fighting it off. No, she did not want to hope. Hope had long ago fled from this place and her family should have left with it. But the death of her husband at the hands—no, the ungues—of the thing that was once their neighbor Albert had forestalled any intentions they had of leaving. Martin had defended his father, killing the abomination with the pointed end of a spade, but not before it inflicted the mortal wound, and, it seems, passed on its blight to Martin who now lay sweating and shivering in his bed. No, it was foolish to think that there might be anything like hope still found in the village of Dunbourne.
 
 “Has his condition improved any?” Godfrey was kind to offer help but it seemed that he had more stupid questions than anything else to give.
 
