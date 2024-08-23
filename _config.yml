@@ -38,7 +38,18 @@ autopages:
       - 'autopage_category.html'
     permalink: '/:cat/'
 
-#plugins:
+darkvisitors:
+  access_token: $DARK_VISITORS_TOKEN
+  append_existing: true
+  agent_types:
+    - AI Data Scraper
+    - AI Assistant
+    - AI Search Crawler
+    - Undocumented AI Agent
+
+plugins:
+  - jekyll-darkvisitors
+  - jekyll-sitemap
 
 sass:
   sass_dir: _sass

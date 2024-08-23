@@ -4,6 +4,7 @@ layout: page
 title: Error
 pagination: 
   enabled: false
+sitemap: false
 ---
 
 # Something Went Wrong

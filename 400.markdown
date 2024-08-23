@@ -4,6 +4,7 @@ layout: page
 title: Not Allowed
 pagination: 
   enabled: false
+sitemap: false
 ---
 
 # Bad Request

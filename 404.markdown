@@ -4,6 +4,7 @@ layout: page
 title: 404 Not Found
 pagination: 
   enabled: false
+sitemap: false
 ---
 
 # Not Found
