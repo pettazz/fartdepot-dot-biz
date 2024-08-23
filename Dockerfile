@@ -1,6 +1,8 @@
 # build it
 FROM ruby:3.1.3 AS builder
 
+RUN apt-get update && apt-get install gettext -y
+
 WORKDIR /build-zone
 
 COPY . .
