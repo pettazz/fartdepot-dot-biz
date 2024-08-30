@@ -56,11 +56,16 @@ sass:
   style: compressed
   
 exclude:
+  - .dockerignore
+  - .gitignore
   - .sass-cache/
   - .jekyll-cache/
+  - Dockerfile
+  - fly.toml
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - nginx.conf
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
