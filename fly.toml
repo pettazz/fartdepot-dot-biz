@@ -4,7 +4,7 @@
 #
 
 app = 'fartdepot'
-primary_region = 'iad'
+primary_region = 'bos'
 
 [build]
   build-target = "runner"
