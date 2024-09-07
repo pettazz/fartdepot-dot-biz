@@ -43,8 +43,6 @@ darkvisitors:
   append_existing: true
   agent_types:
     - AI Data Scraper
-    - AI Assistant
-    - AI Search Crawler
     - Undocumented AI Agent
 
 plugins:
