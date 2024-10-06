@@ -10,4 +10,4 @@ image:
   feature: inktober24/5-binoculars.jpg
 ---
 
-My original thought was to do his character portrait but using binoculars instead of his glasses but I can't bring myself to disrespect Kim like that.
+My original thought was to do his character portrait with binoculars replacing his glasses but I can't bring myself to disrespect Kim like that.
