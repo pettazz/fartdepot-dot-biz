@@ -2,4 +2,7 @@ User-agent: *
 Sitemap: https://fartdepot.biz/sitemap.xml
 Disallow: /p/
 
+User-agent: Googlebot
+Allow: /
+
 # AI crawlers go to hell
